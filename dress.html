@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Image Mapping</title>
+</head>
+<body>
+
+    <div style="text-align: center; margin: 20px;">
+        <h1>Shop by Image: Fashion Items</h1>
+        <h3>Click on the top dress, pants, handbag, or shoes in the image to visit their respective product pages.</h3>
+
+        <img
+            src="https://st5.depositphotos.com/16122460/66193/i/1600/depositphotos_661938432-stock-photo-female-mannequin-bag-dressed-stylish.jpg"
+            alt="Fashion Items for Shopping"
+            usemap="#fashionmap"
+            onerror="this.src='https://placehold.co/800x600/FF0000/FFFFFF?text=Image+Load+Error';"
+        >
+        <map name="fashionmap">
+           <area
+                shape="rect"
+                coords="733,195,870,366"
+                alt="Top Dress"
+                href="https://www.zara.com/us/en/woman-dresses-l1066.html"
+                target="_blank"
+            >
+           
+            <area 
+            shape="circle" 
+            coords="813,437,8" 
+            href="https://share.google/7cxNraTXu9EhuBzx6" 
+            alt="Buttons" 
+            target="_blank"
+            >
+
+            <area
+                shape="poly"
+                coords="693,931,715,815,721,431,878,421,894,744,911,933,889,947,729,944"
+                alt="Pants"
+                href="https://www.levi.com/US/en_US/clothing/women/jeans/c/levi_clothing_women_jeans"
+                target="_blank"
+            >
+            <area
+                shape="rect"
+                coords="703,370,723,458"
+                alt="Handbag"
+                href="https://www.coach.com/shop/women/handbags/view-all"
+                target="_blank"
+            >
+           <area
+                shape="rect"
+                coords="674,956,784,1007"
+                alt="Shoes"
+                href="https://www.nike.com/w/shoes-3gl08"
+                target="_blank"
+            >
+        </map>
+    </div>
+</body>
+</html>
